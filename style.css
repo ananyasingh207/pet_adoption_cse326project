@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+    border:border-box;
+}
+
+.navbar{
+    color:white;
+    padding-left:1rem;
+    padding-top:0.8rem;
+    background-color:rgb(58, 58, 102);
+    height:4.5rem;
+}
+
+.search-input{
+    border-radius:0.7rem;
+    width:82%;
+    height:1.2rem;
+}
+
+.contact{
+    margin-left:5rem;
+}
+
+.navsearch h5{
+    padding-bottom:1rem;
+}
+
+.about{
+    height:4rem;
+    background-color: aliceblue;
+}
+
+
+i:hover{
+    border:solid 1px white;
+    cursor: pointer;
+}
+
+
+.about{
+    font-family: monospace;
+    background-color: aliceblue;
+    height:1.8rem;
+    padding:1.7rem;
+    text-align: center;
+}
+
+.about h5{
+    display: inline;
+    text-align: center;
+    margin-right: 6rem;
+    font-weight: bold;
+}
+
+.about h5:hover{
+    border: solid 1px rgb(62, 62, 129);
+    cursor: pointer;
+}
+
+.about a{
+    color: black;
+}
+
+.about a:hover{
+    color: gray;
+}
+
+
+.bg{
+    height:50rem;
+    width:100%;
+    padding-bottom:2rem;
+}
+
+
+.bgimg img{
+    opacity:0.8;
+    margin:1rem;
+    height: 5rem;
+    width:5rem;
+}
+
+.bgimg{
+    background-image: url("doggos.jpg");
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+}
+
+@keyframes myAnimation{
+    from{
+        opacity:0.5;
+        margin-left: 50%;
+    }
+    to{
+        opacity:1;
+        margin-left: 0%;
+    }
+}
+
+.bgcontent{
+    height:90%;
+    width:90%;
+}
+
+.bgcontent h1 {
+    animation-name:myAnimation;
+    animation-duration:3s;
+    padding-left:10rem;
+    padding-top:12rem;
+    font-size:4rem;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.summary{
+    margin:1rem;
+    padding-top:10rem;
+    border: 1px solid gray;
+    font-family: monospace;
+    padding: 2rem;
+    font-size:1.5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.summary p{
+    font-family:monospace;
+}
+
+.pets h2{
+    color: rgb(55, 55, 99);
+    font-size: 2rem;
+    padding:1rem;
+    font-family: monospace;
+    animation-name:myAnimation;
+    animation-duration:3s;
+}
+
+.pet1 {
+    text-align: left;
+    margin:1rem;
+    padding: 1rem;
+    height:35rem;
+    width:78rem;
+    border: solid 1px gray;
+}
+
+.pet1 h3{
+    color: rgb(55, 55, 99);
+    font-size: 1.5rem;
+    padding:1rem;
+    font-family: monospace;
+}
+
+.pet1 p{
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.pet1 img{
+    border-radius:7px;
+    height:16rem;
+    width:12rem;
+    padding-left:1rem;
+    animation-name:fadein;
+    animation-duration:3s;
+}
+
+.pet2 {
+    text-align: right;
+    margin:1rem;
+    padding: 1rem;
+    height:35rem;
+    width:78rem;
+    border: solid 1px gray;
+}
+
+.pet2 h3{
+    color: rgb(55, 55, 99);
+    font-size: 1.5rem;
+    padding:1rem;
+    font-family: monospace;
+}
+
+.pet2 p{
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.pet2 img{
+    border-radius:7px;
+    height:16rem;
+    width:12rem;
+    padding-left:1rem;
+    animation-name:fadein;
+    animation-duration:3s;
+}
+
+.pet3 {
+    text-align: left;
+    margin:1rem;
+    padding: 1rem;
+    height:35rem;
+    width:78rem;
+    border: solid 1px gray;
+
+}
+
+.pet3 h3{
+    color: rgb(55, 55, 99);
+    font-size: 1.5rem;
+    padding:1rem;
+    font-family: monospace;
+}
+
+.pet3 p{
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.pet3 img{
+    border-radius:7px;
+    height:16rem;
+    width:12rem;
+    padding-left:1rem;
+    animation-name:fadein;
+    animation-duration:3s;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+    
+}
+
+button{
+    color: white;
+    background-color: rgb(56, 56, 114);
+    text-align: center;
+    font-family:monospace;
+    width:40rem;
+    height: 2rem;
+    border-radius:4px;
+    font-size:1rem;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(92, 92, 133);
+}
+
+
+footer{
+    margin-top:3rem;
+    height:20rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(71, 71, 122);
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+
+.pets a{
+    background-color: aliceblue;
+    height: 3rem;
+    width:70rem;
+    font-family: monospace;
+    text-align: center;
+    font-size:1.5rem;
+    margin:2rem;
+}
+
+.pets a:hover{
+    cursor: pointer;
+    background-color: rgb(92, 92, 133);
+}
+
+footer{
+    background-color: rgb(35, 35, 73);
+    height:10rem;
+    color: white;
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    padding:2rem;
+}
+
+.phone{
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+}
+
+.email{
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+}
+
+.ig{
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+}
+
+.linkedin{
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+}
+
+.address{
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+}
+
+.about select{
+    margin-left:-6rem;
+    width:1rem;
+    border-radius:5px;
+}
+
+#adopt{
+    margin-right:0;
+    padding-right:0;
+}

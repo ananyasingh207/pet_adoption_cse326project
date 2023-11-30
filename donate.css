@@ -1,0 +1,99 @@
+*{
+    font-family: monospace;
+    margin:0;
+}
+
+
+img{
+    border-radius:6px;
+    margin:2rem;
+    height:15rem;
+    width:15rem;
+}
+
+body{
+    text-align: center;
+    background-image:url("aboutbg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.java{
+    text-align: center;
+    animation-name:myAnimation;
+    color: rgb(29, 29, 61);
+    border-radius:6px;
+    padding: 2rem;
+    margin:5rem;
+    height: 20rem;
+    width: 70rem;
+    background-color: aliceblue;
+    font-size:1.2rem;
+}
+
+.content{
+    border-radius:6px;
+    padding: 2rem;
+    margin:5rem;
+    height: 16rem;
+    width: 70rem;
+    background-color: aliceblue;
+    font-size:1.5rem;
+    
+}
+
+
+.donate{
+    border-radius:6px;
+    padding: 2rem;
+    margin:5rem;
+    height: 15rem;
+    width: 70rem;
+    background-color: aliceblue;
+    font-size:1.5rem;
+}
+
+.form1{
+    margin: 2rem;
+}
+
+.form2{
+    margin: 2rem;
+}
+
+button{
+    background-color: rgb(31, 31, 78);
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius:5px;
+    height: 3rem;
+    width: 8rem;
+}
+
+.button{
+    text-align: center;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(102, 102, 139);
+}
+
+input{
+    height:2rem;
+    width:50rem;
+    border-radius:5px;
+}
+
+@keyframes myAnimation{
+    from{
+        opacity:0.5;
+        margin-left: 50%;
+    }
+    to{
+        opacity:1;
+        margin-left: 0%;
+    }
+}
+
